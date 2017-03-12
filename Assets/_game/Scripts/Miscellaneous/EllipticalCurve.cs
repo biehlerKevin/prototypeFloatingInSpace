@@ -16,7 +16,7 @@ public class EllipticalCurve : MonoBehaviour {
      
     void Update()
     {
-        alpha += 10;
+        alpha += 0.5f;
         ;
         X = x + (a * Mathf.Cos(alpha * .005f));
         Y = y + (b * Mathf.Sin(alpha * .005f));
